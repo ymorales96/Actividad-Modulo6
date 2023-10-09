@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registros Pacientes</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body class="fondo-pacientes">
+<header>
+    <h1>Centro Medico Backend</h1>
+    <div style="text-align: center;">
+        <img src="https://us.123rf.com/450wm/syawalan/syawalan1911/syawalan191100544/134264679-plantilla-de-dise%C3%B1o-de-logotipo-para-cl%C3%ADnica-hospital-centro-m%C3%A9dico-m%C3%A9dico.jpg" height="60">
+</header>
+<main>
+    <h2>Registros de pacientes</h2>
+<section class="formulario">
+<form>
+    <label for="nombres">Nombres</label>
+    <input class=datos-form type="text" id="nombre" name="nombre" required>
+    <label for="apellidos">Apellidos</label>
+    <input class="datos-form" type="text" id="apellidos" name="apellidos" required>
+    <label for="">Número de Cédula</label>
+    <input type="number" name="cedula" id="cedula" required>
+    <label for="">Edad</label>
+    <input type="edad" name="edad" id="edad" required>
+    <label for="">Teléfono</label>
+    <input type="tel" name="numero" id="numero" required>
+    <label for="">Especialidad requerida</label>
+    <select name="especialidad" id=" especialidad">
+        <option value="">---------------Seleccione una opcion------------------</option>
+        <option value="">Selecione la especialidad</option>
+        <option value="1">Medicina General</option>
+        <option value="2">Cardiología</option>
+        <option value="3">Medicina Interna</option>
+        <option value="4">Dermatología</option>
+        <option value="5">Rehabilitación fisíca</option>
+        <option value="6">Psicología</option>
+        <option value="5">Odontología</option>
+        <option value="5">Radiología</option>
+    </select>
+  </form>
+  <input type="submit" value="Enviar"> 
+<div class="boton-container">
+    <a href="../index.html"> <input type="button" value="Volver"></a>
+</div>
+</section>
+</main>
+<footer>
+    <h2>Realizado por:</h2>
+    <p>Yibel Morales Rey</p>
+</footer>
+</body>
+</html>
