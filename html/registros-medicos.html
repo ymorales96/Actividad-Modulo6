@@ -15,9 +15,9 @@
         <h2>Registros Médicos</h2>
     <body class="fondo-medicos">
     <section class="formulario">
-    <form>
+    <form id="registro-medicos-form">
         <label for="nombres">Nombres</label>
-        <input type="text"  id="nombre" name="nombre" placeholder="Nombres"required>
+        <input type="text"  id="nombres" name="nombres" placeholder="Nombres"required>
         <label for="apellidos">Apellidos</label>
         <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos"required>
         <label for="cedula">Número de Cédula</label>
@@ -29,7 +29,7 @@
         <label for="correo">Correo Electrónico</label>
         <input type="email" id="correo" name="correo"placeholder="correo electrónico" required>
         <label for="especialidad">Especialidad</label>
-        <select name="especialidad" id=" especialidad">
+        <select name="especialidad" id="especialidad">
             <option value="">--------------Selecione la especialidad------------------</option>
             <option value="1">Medicina General</option>
             <option value="2">Cardiología</option>
@@ -40,8 +40,8 @@
             <option value="5">Odontología</option>
             <option value="5">Radiología</option>
         </select>
+        <input type="submit" value="Enviar"> 
     </form>
-    <input type="submit" value="Enviar"> 
     <div class="boton-container">
         <a href="../index.html"> <input type="button" value="Volver"></a>
     </div>
@@ -51,5 +51,6 @@
     <h2>Realizado por:</h2>
     <p>Yibel Morales Rey</p>
 </footer>
+<script src="../app.js"></script>
 </body>
 </html>

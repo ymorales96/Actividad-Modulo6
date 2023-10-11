@@ -15,9 +15,9 @@
 <main>
     <h2>Registros de pacientes</h2>
 <section class="formulario">
-<form>
+<form id="registro-pacientes-form">
     <label for="nombres">Nombres</label>
-    <input class=datos-form type="text" id="nombre" name="nombre" required>
+    <input class=datos-form type="text" id="nombres" name="nombres" required>
     <label for="apellidos">Apellidos</label>
     <input class="datos-form" type="text" id="apellidos" name="apellidos" required>
     <label for="">Número de Cédula</label>
@@ -25,22 +25,22 @@
     <label for="">Edad</label>
     <input type="edad" name="edad" id="edad" required>
     <label for="">Teléfono</label>
-    <input type="tel" name="numero" id="numero" required>
+    <input type="tel" name="telefono" id="telefono" required>
     <label for="">Especialidad requerida</label>
-    <select name="especialidad" id=" especialidad">
+    <select name="especialidad" id="especialidad">
         <option value="">---------------Seleccione una opcion------------------</option>
         <option value="">Selecione la especialidad</option>
-        <option value="1">Medicina General</option>
-        <option value="2">Cardiología</option>
-        <option value="3">Medicina Interna</option>
-        <option value="4">Dermatología</option>
-        <option value="5">Rehabilitación fisíca</option>
-        <option value="6">Psicología</option>
-        <option value="5">Odontología</option>
-        <option value="5">Radiología</option>
+        <option value="Medicina General">Medicina General</option>
+        <option value="Cardiología">Cardiología</option>
+        <option value="Medicina Interna">Medicina Interna</option>
+        <option value="Dermatología">Dermatología</option>
+        <option value="Rehabilitación fisíca">Rehabilitación fisíca</option>
+        <option value="Psicología">Psicología</option>
+        <option value="Odontología">Odontología</option>
+        <option value="Radiología">Radiología</option>
     </select>
-  </form>
-  <input type="submit" value="Enviar"> 
+    <input type="submit" value="Enviar"> 
+</form>
 <div class="boton-container">
     <a href="../index.html"> <input type="button" value="Volver"></a>
 </div>
@@ -50,5 +50,6 @@
     <h2>Realizado por:</h2>
     <p>Yibel Morales Rey</p>
 </footer>
+<script src="../app.js"></script>
 </body>
 </html>
